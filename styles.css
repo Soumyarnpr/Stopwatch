@@ -1,0 +1,39 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background-color: #392f5a;
+  color: #ffebfb;
+}
+
+.stopwatch {
+  margin-top: 80px;
+}
+
+.time {
+  font-size: 40px;
+}
+
+.milliseconds {
+  font-size: 30px;
+}
+
+button {
+  margin: 25px 5px 5px 5px;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 7px;
+  outline: none;
+  border: 1px solid;
+  color: #ffebfb;
+  background-color: #ff57dd;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+button:hover {
+  background-color: #ff8eea;
+}
+
+li {
+  text-align: left;
+}
